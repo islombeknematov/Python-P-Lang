@@ -12,7 +12,7 @@ NONLOCAL - is a variable used in nested functions whose local
     in the local nor in the global scope.
 """
 
-<<<<<<< HEAD
+
                     GLOBAL
 
 x = 'global'
@@ -58,7 +58,7 @@ def outer():
 
 
 outer()
-=======
+
 #                     GLOBAL
 
 # x = 'global'
@@ -104,7 +104,6 @@ outer()
 #
 #
 # outer()
->>>>>>> 926687a (tasks.py file updated)
 
 
 

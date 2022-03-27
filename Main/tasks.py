@@ -34,13 +34,13 @@
 # n1 = 0
 # n2 = 1
 # count = 0
-#
+
 # while count < fibo:
 #     next_n = n1 + n2
 #     n1 = n2
 #     n2 = next_n
 #     count += 1
-#
+
 # print(next_n)
 #
 #
@@ -248,3 +248,51 @@
 #
 #
 # print(two_sum([2, 5, 5, 11], int(input('Enter target: '))))
+
+
+
+					# FIBONACCI WITH MEMOIZATION 
+					# AN EFFICIENT WAY
+# fib_cache = {}
+
+# def fib(n):
+
+# 	# if we have cached value, then return it
+# 	if n in fib_cache:
+# 		return fib_cache[n]
+
+# 	# Compute the Nth term
+# 	if n <= 2:
+# 		value = 1
+# 	else:
+# 		value = fib(n - 1) + fib(n - 2)
+
+# 	# Cache the value and return it
+# 	fib_cache[n] = value
+# 	return value
+
+
+# for n in range(1, 11):
+# 	print(n, fib(n))
+
+
+# cache = {}
+# def fib(n):
+# 	if n in cache:
+# 		return cache[n]
+
+# 	elif n <= 2:
+# 		result = 1
+
+# 	elif n > 2:
+# 		result = fib(n - 1) + fib(n - 2)
+
+# 	cache[n] = result
+
+# 	return result
+
+
+# for n in range(1, 51):
+# 	print(n, fib(n))
+
+

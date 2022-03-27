@@ -13,7 +13,7 @@ def loader(url):
 async def spider(site_name):
     for page in range(1, 4):
         await asyncio.sleep(1)      # await -> запускает механизм ожидания и
-        print(site_name, page)      # передает управление из функции обратно в even_loop
+        print(site_name, page)      # передает управление из функции обратно в event_loop
                                     # чтобы диспетчер мог запустить другие функции
 start = time()
 
