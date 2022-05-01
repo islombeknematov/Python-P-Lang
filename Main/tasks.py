@@ -1,6 +1,6 @@
 #      1.  Write a Python program to check if a given positive
 #               integer is a power of two.
-#
+
 #
 # power = int(input('Enter a number: '))
 #
@@ -47,7 +47,19 @@
 # import datetime
 # print(datetime.datetime.now())
 # print(datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"))
-#
+
+# def fibo(n):
+# 	f1, f2 = 0, 1
+# 	while n > 0:
+# 		f3 = f1 + f2
+# 		f1, f2 = f2, f3
+# 		n -= 1
+		
+# 	return f3		
+
+# print(fibo(5))
+
+
 # -------------------------------------------------------------------------
 #
 #       5.  Write a Python program that accepts an integer (n) and
@@ -135,11 +147,11 @@
 #
 # -------------------------------------------------------------------------
 #
-# <<<<<<< HEAD
+
 #      1.  Write a Python program to check if a given positive
-# =======
+
 #      9.  Write a Python program to check if a given positive
-# >>>>>>> 926687a (tasks.py file updated)
+
 #               integer is a power of two.
 #
 # def power(number):
@@ -156,12 +168,12 @@
 #
 #
 # numbers = int(input('Enter: '))
-# <<<<<<< HEAD
+
 # # power(numbers)
 #
 #
 #
-# =======
+
 # power(numbers)
 #
 # ------------------------------------------------------------------
@@ -294,5 +306,43 @@
 
 # for n in range(1, 51):
 # 	print(n, fib(n))
+
+
+
+
+
+
+def solution(statues):
+	min_val, max_val = min(statues), max(statues)
+	new_lst = []
+
+	for i in statues:
+		# print(i)
+		if min_val in statues:
+			continue
+		else:
+			new_lst.append(min_val)	
+		min_val += 1
+		print(min_val)	
+
+		# print(new_lst)
+		
+
+solution([6, 2, 3, 8])
+
+# answer = 4, 5, 7
+
+
+"""
+min_val = 2
+max_val = 8
+
+new_lst = []
+
+i = 6
+"""
+
+
+
 
 

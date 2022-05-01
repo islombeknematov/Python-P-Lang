@@ -8,30 +8,29 @@
               items have a defined order, and that order will not change.
 """
 
-<<<<<<< HEAD
-str1 = {1, 2, 3, 4, 5}
-str2 = {1, 2, 3, 6}
+set1 = {1, 2, 3, 4, 5}
+set2 = {1, 2, 3, 6}
 
-str1.add(6)
-str1.clear()    # Removes all elements
+set1.add(6)
+set1.clear()    # Removes all elements
 
-str3 = str1.union(str1, str2)
+str3 = set1.union(set1, set2)
 print(str3)
 
-str3 = str1.copy()      # Returns a shallow copy (no effect to org. copy)
-print(str1)
+str3 = set1.copy()      # Returns a shallow copy (no effect to org. copy)
+print(set1)
 str3.clear()
-print(str1, str3)
+print(set1, str3)
 
-str1.update('Hi')
-str1.update(['sss'])
-str1.update([11, 22])
-print(str1)
+set1.update('Hi')
+set1.update(['sss'])
+set1.update([11, 22])
+print(set1)
 
 
-print(str1.intersection(str2))   # Returns elements in both sets
+print(set1.intersection(set2))   # Returns elements in both sets
 
-print(str2.difference(str1))     # Returns elements in str2, which doesn't exist in str1
+print(set2.difference(set1))     # Returns elements in set2, which doesn't exist in str1
 
 
 add - Add an element to a set.
@@ -80,7 +79,8 @@ union - Return the union of sets as a new set
          (i.e. all elements that are in either set.)
 
 update - Update a set with the union of itself and others.
-=======
+
+
 # str1 = {1, 2, 3, 4, 5}
 # str2 = {1, 2, 3, 6}
 

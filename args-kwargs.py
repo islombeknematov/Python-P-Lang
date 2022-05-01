@@ -32,6 +32,7 @@ def student(name, **data):
 
 
 student("Islombek", age=20, city='Tashkent')
+
 # def student(name, **data):
 #     print(name)
 #     print(data)     # here **data returns dict

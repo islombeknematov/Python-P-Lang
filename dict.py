@@ -10,7 +10,6 @@ dictionary = {
     'Horse Power': 1000
 }
 
-<<<<<<< HEAD
 print(dictionary['Model'])
 print(dictionary.items())     # returns each item in a dictionary, as tuples in a list.
 
@@ -32,7 +31,7 @@ if "BMW" in dictionary.values():
 
 dictionary.update({'Model': 23})
 print(dictionary)
-=======
+
 # print(dictionary['Model'])
 # print(dictionary.items())     # returns each item in a dictionary, as tuples in a list.
 
@@ -54,10 +53,3 @@ print(dictionary)
 
 # dictionary.update({'Model': 23})
 # print(dictionary)
->>>>>>> 926687a (tasks.py file updated)
-
-
-
-
-
-

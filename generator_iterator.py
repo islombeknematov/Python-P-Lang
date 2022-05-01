@@ -9,7 +9,7 @@ GENERATOR - is a simple way of creating an iterator, and it
 """
 
 
-<<<<<<< HEAD
+
                   ITERATOR
 
 my_set = {'Apple', 'Banana', 'Cherry'}
@@ -37,32 +37,5 @@ new_f = func()
 
 for i in func():
     print(i)
-=======
-#                   ITERATOR
-
-# my_set = {'Apple', 'Banana', 'Cherry'}
-# new_set = iter(my_set)
-# print(next(new_set))
-# print(new_set.__next__())
-# print(new_set.__next__())
-# print(new_set.__next__())   # ERROR STOP ITERATION
 
 
-# my_list = iter(['Apple', 'Cherry', 'Banana'])
-# print(next(my_list))
-# print(my_list.__next__())
-
-
-#                   GENERATOR
-
-# def func():
-#     yield 1
-#     yield 2
-#     yield 3
-
-
-# new_f = func()
-
-# for i in func():
-#     print(i)
->>>>>>> 926687a (tasks.py file updated)

@@ -171,9 +171,6 @@
 
 #					ENCAPSULATION
 
-
-
-
 # class Islom():
 # 	def __init__(self):
 # 		self.__n = 'Islombek '
@@ -230,7 +227,6 @@
 # class Math2(Math1):
 # 	# def number(self):
 # 	# 	return 15
-# 	pass
 
 
 # a = Math1()
@@ -240,33 +236,6 @@
 # print(b.number())
 
 
-
-# ------------------------------------
-
-
-class Item:
-
-	def __init__(self, name: str, price: float, quantity=0):
-
-		# Run validations to the received arguments
-		assert price >= 0, f"Price {price} is not greater than zero!"
-		assert quantity >= 0, "Quantity {} is not greater than zero!".format(quantity)
-
-
-		# Assign to self object
-		self.n = name
-		self.p = price
-		self.q = quantity 
-
-
-	def calc_total_price(self):
-		return self.p * self.q
-
-
-item1 = Item('Phone', 100, 2) 
-print(item1.n, item1.p, item1.q)
-
-print(item1.calc_total_price())
 
 
 
